@@ -63,6 +63,11 @@ assert(ifPFirst?.style?.fontSize === '20px');
   p {
     font-size: 20px;
   }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
   /* Only change code below this line */
 
@@ -83,6 +88,12 @@ assert(ifPFirst?.style?.fontSize === '20px');
   @media (max-height: 800px) {
     p {
       font-size: 10px;
+    }
+  }
+
+   @media (max-height: 600px) {
+    p {
+      font-size: 8px;
     }
   }
 </style>
